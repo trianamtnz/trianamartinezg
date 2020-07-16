@@ -1,0 +1,77 @@
+@font-face {
+  src: url("../Fuente/Averta.otf");
+  font-family: "Averta";
+}
+@font-face {
+  src: url("../Fuente/Averta\ Semibold.otf");
+  font-family: "Averta Semibold";
+}
+
+body {
+  background-color: #ECE0DA;
+  font-family: "Averta"; 
+}
+
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 30%;
+}
+
+h1{ 
+  text-align: center;
+  font-family: "Averta Semibold";
+  font-size: 25px;
+  margin-top: 64px;
+}
+.formacion{
+  text-align: center;
+  font-family: "Averta Semibold";
+  font-size: 20px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+
+
+.project-container {
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.project{
+  display: flex;
+  align-items: center;
+}
+.projectimg{
+  display: flex;
+  width: 50%;
+}
+.projectinfo{
+  width: 50%;
+  margin-left: 88px;
+}
+.project2{
+  align-items: center;
+  display: flex; 
+  flex-flow: row-reverse;
+}
+
+h2{
+  font-family: "Averta Semibold";
+  font-size: 15px;
+}
+.descrip{
+  width: 80%;
+  font-size: 15px;
+}
+.descrip2{
+  width: 80%;
+  font-size: 15px;
+  text-align: left; 
+}
